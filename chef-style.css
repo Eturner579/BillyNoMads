@@ -1,0 +1,56 @@
+
+/* === Our Chef Section === */
+.our-chef {
+  background-color: #fff8f0;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.chef-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.chef-photo {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.chef-bio {
+  max-width: 600px;
+}
+
+.chef-bio h3 {
+  font-size: 1.5rem;
+  color: #804000;
+  margin-bottom: 10px;
+}
+
+.chef-bio p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  font-family: 'Arial', sans-serif;
+  padding: 0 20px;
+}
+
+@media (min-width: 600px) {
+  .chef-container {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .chef-photo {
+    margin-right: 30px;
+  }
+
+  .chef-bio {
+    text-align: left;
+  }
+}
